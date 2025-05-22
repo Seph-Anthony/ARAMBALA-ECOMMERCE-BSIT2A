@@ -5,7 +5,10 @@
     "autoload": {
         "psr-4": {
             "Aries\\MiniFrameworkStore\\": "app/"
-        }
+        },
+        "files": [
+            "helpers/functions.php"
+        ]
     },
     "authors": [
         {
@@ -14,6 +17,7 @@
         }
     ],
     "require": {
-        "nesbot/carbon": "^3.9"
+        "nesbot/carbon": "^3.9",
+        "vlucas/phpdotenv": "^5.4"
     }
 }
